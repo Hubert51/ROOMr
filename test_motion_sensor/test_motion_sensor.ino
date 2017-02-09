@@ -40,19 +40,19 @@ void siren();
  void siren()//This function will make the alarm sound using the piezo buzzer
 {
 for (count = 0; count < MAX_COUNT; count++) {
-      //for (count3 = 0; count3 <= (melody[count*2] - 48) * 30; count3++) {
-      //for (count2=0;count2<8;count2++) {
-        //if (names[count2] == melody[count*2 + 1]) {       
+      for (count3 = 0; count3 <= (melody[count*2] - 48) * 30; count3++) {
+      for (count2=0;count2<8;count2++) {
+        if (names[count2] == melody[count*2 + 1]) {       
           analogWrite(speakerOut,1023);
           delayMicroseconds(tones[count2]);
           analogWrite(speakerOut, 0);
           delayMicroseconds(tones[count2]);
-        //} 
-        //if (melody[count*2 + 1] == 'p') {
+        } 
+        if (melody[count*2 + 1] == 'p') {
           // make a pause of a certain size
-          //analogWrite(speakerOut, 0);
-          //delayMicroseconds(100);
-        //}
+          analogWrite(speakerOut, 0);
+          delayMicroseconds(100);
+        }
       }
     }
   }
