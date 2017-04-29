@@ -19,6 +19,13 @@ Hao Chang
 
 [Zhenyu(Victor) Zhu](zhuzhuuu.com)
 
+## Change Log
+_v0.1.0_
+* Documentation
+* Set up server
+* Use Raspberry with arduino with motion dector to finish simple test(communication between server and devices & users )
+* Complete motion detector programming
+
 
 ## License
 
