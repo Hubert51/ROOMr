@@ -20,7 +20,7 @@ Hao Chang
 [Zhenyu(Victor) Zhu](zhuzhuuu.com)
 
 ## Change Log
-**v0.1.0**
+**v0.1.0(2017/4/29)**
 * Documentation
 * Set up server
 * Use Raspberry with arduino with motion dector to finish simple test(communication between server and devices & users )
