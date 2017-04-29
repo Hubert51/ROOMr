@@ -5,11 +5,13 @@
 // and one specific sentivity adjust.
 int buttonState ;
 int buttonPin = 2;
+int relayInput = 7;
 
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
+  pinMode(relayInput, OUTPUT);
 }
 
 void loop() {
@@ -19,8 +21,18 @@ void loop() {
   if (buttonState == 1) {
 
     Serial.println("detected");
+    digitalWrite(relayInput, HIGH);
+    
+    delay(1000);
   
   }
+
+  else {
+    Serial.println("No");
+    digitalWrite(relayInput, LOW);
+
+    delay(1000);
+    }
   
   //delay(1000);
 
