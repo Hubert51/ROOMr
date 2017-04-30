@@ -1,6 +1,7 @@
 # ROOMr
 
 [ ![image](https://img.shields.io/badge/Demo-online-green.svg ) ](http://gengruijie.pythonanywhere.com)
+![version](https://img.shields.io/badge/version-0.1.0-yellow.svg)
 
 ## Introduction
 Finding an available open study room around campus is a pain. Often we need to walk around the entire, for instance, library to find a vacant study room not to mention failing to find one is just so expected.
