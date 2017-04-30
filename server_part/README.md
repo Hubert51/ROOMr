@@ -19,6 +19,3 @@ Built With
 1. Flask - A micro web framework for python.
 2. MySQL - A SQL type database
 
-Change log
-v0.1.0
-1.
