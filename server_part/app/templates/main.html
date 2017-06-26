@@ -1,0 +1,62 @@
+{% extends "table.html"%}
+
+{% block body %} <div class="col-md-12">
+<div class="card">
+    <div class="header">
+        <h4 class="title">Library Table</h4>
+        <p class="category"> </p>
+    </div>
+    <div class="content table-responsive table-full-width">
+        <table class="table table-striped">
+            <thead>
+                <th>ID</th>
+                <th>Room</th>
+                <th>State</th>
+                <th>Location</th>
+            </thead>
+            <tbody>
+                <tr>
+                   <td>1</td>
+                   <td>351-C</td>
+                   <td>Empty</td>
+                   <td>Library</td>
+               </tr>
+               <tr>
+                   <td>2</td>
+                   <td>431</td>
+                   <td>Occupied</td>
+                   <td>Library</td>
+               </tr>
+               <tr>
+                   <td>3</td>
+                   <td>421-C</td>
+                   <td>Empty</td>
+                   <td>Library</td>
+               </tr>
+               <tr>
+                   <td>4</td>
+                   <td>353-A</td>
+                   <td>Empty</td>
+                   <td>Library</td>
+               </tr>
+               <tr>
+                   <td>5</td>
+                   <td>343-B</td>
+                   <td>Occupied</td>
+                   <td>Library</td>
+               </tr>
+               <tr>
+                   <td>6</td>
+                   <td>551-C</td>
+                   <td>{{state}}</td>
+                   <td>Library</td>
+               </tr>
+           </tbody>
+       </table>
+
+   </div>
+</div>
+</div>
+</div>
+
+{%  endblock %}
