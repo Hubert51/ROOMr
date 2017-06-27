@@ -25,8 +25,8 @@ Hao Chang<br>
 
 ## Change Log
 **v0.2.0(2017/6/27)**
-*Refactoring: Divide code into several files and folders so that I can manage code easily.
-*Add user login module.
+* Refactoring: Divide code into several files and folders so that I can manage code easily.
+* Add user login module.
 
 **v0.1.0(2017/4/29)**
 * Documentation
