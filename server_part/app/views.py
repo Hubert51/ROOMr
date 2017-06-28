@@ -27,6 +27,10 @@ def update(info):
 
 	return roomNum
 
+@app.route("/main")
+def roomr():
+	return render_template('main.html')
+
 @app.before_request
 def befor_request():
 	g.user = current_user
