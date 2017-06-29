@@ -24,6 +24,10 @@ Hao Chang<br>
 [Zhenyu(Victor) Zhu](zhuzhuuu.com)<br>
 
 ## Change Log
+**v0.2.1(2017/6/29)**
+* Add one more login method which is username and password method.
+* Fix bug: solve the encode bug so that css and js can work normally.
+
 **v0.2.0(2017/6/27)**
 * Refactoring: Divide code into several files and folders so that I can manage code easily.
 * Add user login module.
