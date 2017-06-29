@@ -7,7 +7,7 @@
 Finding an available open study room around campus is a pain. Often we need to walk around the entire, for instance, library to find a vacant study room not to mention failing to find one is just so expected.
 
 ## Demo
-This is homepage [Welcome to ROOMr.](http://gengruijie.pythonanywhere.com) (The homepage does not upgrade. It is still 0.1.0 version) <br >
+This is homepage [Welcome to ROOMr.](http://gengruijie.pythonanywhere.com) (The homepage does not upgrade. It is still version 0.1.0.) <br >
 The homepage is designed for our campus library. This is an almost static website. The only changeable part is state part. The different value from database will give different state of this room.
 
 ## Built with
